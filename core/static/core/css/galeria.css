@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+    
+    font-weight: 100;
+    font-family:'Courier New', Courier, monospace;
+}
+.mecanico{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 15px;
+
+
+
+    
+
+}
+.trabajos{
+    width: 28%;
+    display: inline-block;
+    margin: auto 10px;
+    
+
+
+
+}
+#servicios{
+    
+    padding: 16px;
+    margin: 15px auto;
+    width: 86%;
+    background: url(../FOTOS/logo/internal-combustion-engine-work-banner_0.jpg);
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+#logo{
+
+    width: 10%;
+    margin: 0px 10px;
+}
+
+#galeria{
+    color: rgb(255, 255, 255);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke: black 2px;
+    
+}
+.mecanico{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.my-fixed-item {
+    position: fixed;
+    min-height: 120px;
+    width: 252px;
+    text-align: center;
+    word-wrap: break-word;
+    background-color: aquamarine;
+}
+
+.icon{
+    position: fixed;
+    bottom: 0vw;
+    right: 0vw;
+    width: 4%;
+    margin: 1%;
+    
+
+}
+/*Footer*/
+.cont{
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 15px;}
+.footerfondo {
+    background: rgba(221, 221, 221, 0.603);
+}
+
+.footerfondo ul li a:hover {
+    color: #ffffff;
+    padding-left: 2px;
+}
+
+.fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 45px;
+}
+
+.fa-twitter {
+    color: #00aced;
+    font-size: 45px;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+    font-size: 45px;
+}
+
+.centrado {
+    max-width: 70%;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+    border-radius: 85%;
+}
+
+img.centrado {
+    cursor: pointer;
+    transition: all 2s ease;
+}
+
+img.centrado:hover {
+    filter: grayscale(75);
+}
+
+
+
+
+img.logofooter {
+    width: 120px;
+}
+
+.alert {
+    display: block;
+    padding: 12px 20px;
+    background: #f8d7da;
+    color: #721c24;
+    margin-bottom: 10px;
+}
+
+/*Footer*/
+.row{
+    margin-right: 40px;
+}
+.cont{
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 15px;}
+.footerfondo {
+    background: rgba(221, 221, 221, 0.603);
+}
+
+.footerfondo ul li a:hover {
+    color: #ffffff;
+    padding-left: 2px;
+}
+
+.fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 45px;
+}
+
+.fa-twitter {
+    color: #00aced;
+    font-size: 45px;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+    font-size: 45px;
+}
+
+.centrado {
+    max-width: 70%;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+    border-radius: 85%;
+}
+
+img.centrado {
+    cursor: pointer;
+    transition: all 2s ease;
+}
+
+img.centrado:hover {
+    filter: grayscale(75);
+}
+
+
+
+
+img.logofooter {
+    width: 120px;
+}
+
+.alert {
+    display: block;
+    padding: 12px 20px;
+    background: #f8d7da;
+    color: #721c24;
+    margin-bottom: 10px;
+    
+}
